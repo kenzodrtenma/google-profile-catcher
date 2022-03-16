@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #1f1f1f;
+    min-height: 100vh;
+    padding: 50px;
+}
+main {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+strong{
+    color: #fff !important;
+}
+
+.cpc-title,
+#authenticated-area,
+#authenticated-area-content,
+#unauthenticated-area
+{
+    width: 100%;
+}
+.snippet {
+    display: flex;
+    flex-direction: column;
+}
+.snippet-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px; 
+    background: #4a4646;
+    color: #fff;
+}
+
+code {
+    background: #2c2c2c;
+    padding: 15px;
+    display: flex;
+    overflow-wrap: anywhere;
+}
+
+.signature-samurai{
+    font-size: 15px;
+    color: #fff;
+    font-style: italic;
+    font-weight: lighter;
+}

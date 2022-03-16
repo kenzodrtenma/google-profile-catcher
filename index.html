@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Social Login Test</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="google-signin-client_id" content="YOUR-CLIENT-ID-GOES-HERE">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <main class="is-flex is-flex-wrap-wrap">
+            <div class="cpc-title is-flex is-justify-content-space-between is-align-items-center mb-5">
+                <h1 class="title is-2 mb-0">Google Profile Catcher</h1>
+                <p class="signature-samurai">Developed by SamuraiPetrus ⚔️</p>
+            </div>
+            <p class="pb-5">
+                This is a front end example of how to use the Google Social Login API.
+                It is not intended to be a full-featured example of how to use the API, just a simple user retrieval example.
+            </p>
+            
+            <div class="mb-5 is-flex is-align-items-center">
+                <div class="g-signin2" id="signin" data-onsuccess="onSignIn"></div>
+                <a class="button ml-3 is-danger" href="#" onclick="signOut();">Sign out</a>
+            </div>
+
+            <div id="authenticated-area" style="display: none;">
+            </div>
+
+            <div id="unauthenticated-area" style="display: none;">
+            </div>
+
+        </main>
+        <script src="js/main.js"></script>
+    </body>
+</html>
