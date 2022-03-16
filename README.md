@@ -5,7 +5,7 @@ A simple Node.js application created to get information relevant to backend inte
 ## Prerequisites
 I assume you have [Node.js](https://nodejs.org/en/download/) installed in your machine, if you don't, do it.
 ## Recommendations
-Is recommended to read the official [Google Social Login integration](https://developers.google.com/identity/sign-in/web/sign-in) before or while using this repository. But chill, it's just a friend's tip :smile:, you can completely ignore it.
+Is recommended to read the official [Google Social Login documentation](https://developers.google.com/identity/sign-in/web/sign-in) before or while using this repository. But chill, it's just a friend's tip :smile:, you can completely ignore it.
 ## How to use
 Replace the "content" attribute to your Google's project Client ID.
 ```html
@@ -23,5 +23,9 @@ const port = 4000; //Ex: 9999
 Then all you have to do is click on the "Login" button and then catch your info. :sunglasses:.
 
 ## Facing issues?
-Feel free to open issues, or even pull requests to this repo! 😄
+If you have issues related to the Google Social Login integration, i recommend again to read the docs on the "Recommendations" session.
+
+Additionally, here's some valious tips
+- Remember to add your localhost URL to the "Authorized JavaScript Origins" in your Google project, then restart your application, it should take some minutes to your permission error disappear.
+- Feel free to open issues, or even pull requests to this repo. 😄
 
